@@ -69,9 +69,9 @@ export default function InvitationApp() {
                   <motion.h1
                     custom={0.4}
                     variants={fadeInUp}
-                    className="text-3xl sm:text-5xl font-playfair font-bold text-deep-earth leading-tight mb-2"
+                    className="text-3xl sm:text-3xl font-playfair font-bold text-deep-earth leading-tight mb-2"
                   >
-                    Eid Fitr Celebration
+                    Eid Fitr <br /> Celebration
                   </motion.h1>
                   <motion.p
                     custom={0.6}
@@ -105,7 +105,7 @@ export default function InvitationApp() {
 
               <motion.div custom={0.4} variants={fadeInUp}>
                 <p className="text-base sm:text-lg text-deep-earth leading-relaxed">
-                  <span className="font-semibold">Dear Abang, Adik-adik, Keponakan</span>
+                  <span className="font-semibold">Dear Abang, Kakak Adik, dan Keponakan</span>
                 </p>
               </motion.div>
 
